@@ -1,0 +1,11 @@
+1, user authentication and app authorization(Facebook Oauth Dialog)
+   url: https://www.facebook.com/dialog/oauth?client_id=413886955341249&redirect_uri=http://localhost:88/index.php
+
+2, facebook redirects to the redirect_url along with a query parameter named code(sever generated authorization code)
+   redirect_url: http://localhost:88/index.php?code=AQCT1cNhL0QjRMMDDnQvBU8B95-GBZphgWKmghUNJd_RSqnEbQgxM1ScFjLB_c-pw9cVx__tZKXeLt0Kr-Mi-oxYeu1yaMDlnFS5FyNAO4BqETir2U25VgCDGGqKSI1f51hrKbh3GjTD68KtAmNp-m21fkDeOLlW2Tw_l1er6X93xpMPNgWGBXr6uSffCP-gG5_pLFIVCgUdHgMn61h2bCKU#_=_
+
+3, app authenticationi(Graph ApI token endpoint)
+  url : https://graph.facebook.com/oauth/access_token?client_id=413886955341249&redirect_url=http://localhost:88/index.php&client_secret=4e284892130ddb2f81da8b49f847cea1&code=AQDOv34koCCh9xv-vWGk9jdaN_5vhytoonUFDo5OcvZHHl9u60GFejkOTYbB9-yOnN6oD9C3Jj8Mb8qEXtLxxjIHiV1QNy0SUzIQwbF2Fj0bipcjuRcg9S7fuEQpI2w3BWucNNzRyT55G-wFIpKdjrdtVN0bwY-4jRc81GLL1KuJbAtqj1RLVCinv9cP3uemEHL9PeMjlkffjdBTawyy5Box#_=_
+
+4,receive an access token
+  access_token=AAAF4bZADzRcEBAFPON8NfQFdfxy0tFKmncxHym9xwpY99ynpEr4OMn7Q3j5RJGVBBqTjTVgS8exm7tNsPRUFj4zptl1u1Kxv7sE7xRgZDZD&expires=5128719
